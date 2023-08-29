@@ -1,0 +1,133 @@
+<html>
+<head>
+
+<style>
+h1
+{
+font-size: 44p;
+color: darkred;
+}
+input
+{
+border-radius: 50px;
+width: 250px;
+height: 35px;
+text-align: 5px;
+
+}
+input:focus
+{
+outline: none;
+
+}
+fieldset
+{
+width: 50%;
+height: 690px;
+background: url(https://i.pinimg.com/736x/6c/89/a3/6c89a34e16fc91b26fada94f0cc4c8d5.jpg);
+border-radius: 5px;
+outline: none;
+
+}
+table
+{
+font-size: 22px;
+
+}
+td
+{
+line-height: 50px;
+}
+input[type="submit"]
+{
+width: 120px;
+height: 38px;
+background-color: #d2691e;
+}
+input[type="submit"]:hover
+{
+background-color: brown;
+}
+input[type="reset"]
+{
+width: 120px;
+height: 38px;
+background-color: #d2691e;
+}
+input[type="reset"]:hover
+{
+background-color: brown;
+}
+</style>
+
+
+<meta charset="utf-8">
+<title>submit</title>
+</head>
+<body>
+
+<center>
+<form action="userinfo.php" method="post">
+<fieldset>
+<table>
+<h1>fill the form</h1>
+<tr>
+<th>Name</th>
+<td>:</td>
+<td><input type="text" name="name" id="name1" placeholder="Enter your Name"></td>
+</tr>
+<tr>
+<th>Email Id</th>
+<td>:</td>
+<td><input type="Email" name="Email" id="Email1" placeholder="Enter your Email Id"></td>
+</tr>
+<tr>
+<th>Contact No</th>
+<td>:</td>
+<td><input type="Number" name="Number" id="Number1" placeholder="Enter your Mob No."></td>
+</tr>
+<tr>
+<th>From Date</th>
+<td>:</td>
+<td><input type="Date" name="Date" id="Date1"></td>
+</tr>
+
+<tr>
+<th>To Date</th>
+<td>:</td>
+<td><input type="Date" name="todate" id="todate1"></td>
+
+<tr>
+<th>Day</th>
+<td>:</td>
+<td><input type="Text" name="day" id="day1" placeholder="Enter Day "></td>
+</tr>
+<tr>
+<th>Time</th>
+<td>:</td>
+<td><input type="Time" name="time" id="time1"></td>
+</tr>
+
+</tr>
+</table>
+<div>
+<tr>
+<td>
+<button type="submit" value="submit" name="send" id="send1">Send</button>
+
+</td>
+<td>
+
+<button type="submit" value="Delete" name="Delete" id="Delete1">delete</button>
+</td>
+</tr>
+</div>
+
+</fieldset>
+</form>
+</center>
+
+</body>
+</html>
+
+

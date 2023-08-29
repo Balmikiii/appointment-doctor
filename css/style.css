@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main_query .apoint{
+    height: 500px;
+    width: 100%;
+    overflow: auto;
+
+}
+.main_query .second p{
+    border-radius: 25px;
+    background-color: #d8d8d8;
+}
+.main_query .apoint p{
+    padding-bottom: 200px;
+}
+.main_query .apoint table a{
+    color: red;
+    text-decoration: none;
+}
+.main_query .apoint table img{
+    width: 30px;
+    height: auto;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+@media  only screen and (max-width:768px)
+{
+    html, body {
+        width: auto!important; overflow-x: hidden!important
+    }
+    .main_query .row .col-md-2{    
+        display: none;
+    }
+
+}
+
+
